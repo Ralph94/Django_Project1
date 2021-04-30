@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe78d91-a315-4e5d-9483-294c57c7af80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_backend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_backend/templates/core_backend/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core_backend/templates/core_backend/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_backend/templates/core_backend/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/core_backend/templates/core_backend/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_pics/pixi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,16 +48,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core_backend/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/profile_pics" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\core_backend\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\profile_pics" />
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\media" />
       <recent name="C:\Users\Rafael Perez\Desktop\django_project1" />
       <recent name="C:\Users\Rafael Perez\Desktop\django_project1\django_project1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\profile_pics" />
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\media" />
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\media\profile_pics" />
+      <recent name="C:\Users\Rafael Perez\Downloads\django_project1\core_backend\static" />
     </key>
   </component>
   <component name="SvnConfiguration">

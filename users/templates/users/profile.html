@@ -9,9 +9,23 @@
      <div class="media-body">
      <h2 class="account-heading">{{user.username }}</h2>
      <p class="text-secondary">{{ user.email }}</p>
-     <p class="text-secondary">{{ user.phone_number }}</p>
+     <p class="text-nickname">{{ user.nickname }}</p>
     </div>
   </div>
   <!-- FORM HERE -->
+       <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <!-- TIP. Keep in mind wile using bootstrap you can manipulate the way page looks just like you would with CSS
+                  Example <legend class="border-bottom mb-4">Join Today</legend> -->
+            <legend class="border-bottom mb-10">Profile info</legend>
+                {{ u_form|crispy }}
+                {{ p_form|crispy }}
+                {{ n_form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Update</button>
+            </div>
+        </form>
 </div>
 {% endblock content %}

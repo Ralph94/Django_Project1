@@ -49,6 +49,9 @@
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8">
+        <!-- End Of Navbar Right Side -->
+
+            <!-- Profile Info account  -->
             {% if messages %}
                 {% for message in messages %}
             <div class="alert alert-{{ message.tags }}">
@@ -57,9 +60,12 @@
                 {% endfor %}
             {% endif %}
           {% block content %}{% endblock %}
+          <!-- End Of Profile Info account  -->
         </div>
         <div class="col-md-4">
           <div class="content-section">
+
+          <!-- Base.html -->
             <h3>Our Sidebar</h3>
             <p class='text-muted'>You can put any information here you'd like.
               <ul class="list-group">
@@ -70,6 +76,7 @@
               </ul>
             </p>
           </div>
+          <!-- End Of Base.html -->
         </div>
       </div>
     </main>
